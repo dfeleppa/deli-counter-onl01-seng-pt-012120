@@ -1,8 +1,8 @@
 def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
-  elsif line.length >= 1
-    line
+  elsif katz_deli.length >= 1
+    katz_deli.join
 end
 
 def take_a_number(line, name)
