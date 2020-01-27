@@ -2,7 +2,8 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   elsif katz_deli.length >= 1
-    katz_deli.join("katz_deli")
+    katz_deli.join(" #{name.index + 1}. ")
+    
 end
 
 def take_a_number(katz_deli, name)
