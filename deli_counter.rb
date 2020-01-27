@@ -1,7 +1,8 @@
 def line(katz_deli)
-  if katz_deli.length == 0
+  if katz_deli.empty?
     puts "The line is currently empty."
-  elsif katz_deli.length >= 1
+  else
+  #elsif katz_deli.length >= 1
       current_line = "The line is currently:"
     deli.each.with_index(1) do |person, i|
       current_line << " #{i}. #{person}"
