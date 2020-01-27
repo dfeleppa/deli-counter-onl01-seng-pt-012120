@@ -3,7 +3,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   elsif katz_deli.length >= 1
     katz_deli.join(" #{name.index + 1}. ")
-  
+  end
 end
 
 def take_a_number(katz_deli, name)
@@ -17,4 +17,5 @@ def now_serving(katz_deli)
   elseif katz_deli.length >= 1 
     puts "Currently serving #{katz_deli[0]}"
     katz_deli.shift
+  end
 end  
