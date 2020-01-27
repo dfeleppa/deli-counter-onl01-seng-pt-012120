@@ -3,8 +3,8 @@ def line(katz_deli)
     puts "The line is currently empty."
   elsif katz_deli.length >= 1
       current_line = "The line is currently:"
-    katz_deli.each.with_index(1) { |person, i|
-      current_line << " #{i}. #{person}"
+    katz_deli.each.with_index(1) { |name, i|
+      current_line << " #{i}. #{name}"
     }
     puts current_line
   end
